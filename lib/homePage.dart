@@ -485,15 +485,18 @@ class _codeState extends State<code> {
                               }
                             });
                           },
-                          child: Container(
-                            height: 60,
-                            width: 60,
-                            child: Center(
-                              child: Text(
-                                "8",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 30,
+                          child: Expanded(
+                            flex: 1,
+                            child: Container(
+                              height: 60,
+                              width: 60,
+                              child: Center(
+                                child: Text(
+                                  "8",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 30,
+                                  ),
                                 ),
                               ),
                             ),
@@ -509,15 +512,18 @@ class _codeState extends State<code> {
                               }
                             });
                           },
-                          child: Container(
-                            height: 60,
-                            width: 60,
-                            child: Center(
-                              child: Text(
-                                "5",
-                                style: TextStyle(
-                                  color: Colors.black,
-                                  fontSize: 30,
+                          child: Expanded(
+                            flex: 1,
+                            child: Container(
+                              height: 60,
+                              width: 60,
+                              child: Center(
+                                child: Text(
+                                  "5",
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 30,
+                                  ),
                                 ),
                               ),
                             ),
@@ -691,7 +697,7 @@ class _codeState extends State<code> {
                             });
                           },
                           child: Container(
-                            height: 200,
+                            height: 150,
                             width: 90,
                             decoration: BoxDecoration(
                               color: Color(0xffff6b00),
@@ -716,12 +722,11 @@ class _codeState extends State<code> {
                             });
                           },
                           child: Container(
-                            height: 200,
+                            height: 100,
                             width: 90,
                             decoration: BoxDecoration(
                               color: Color(0xffff6b00),
-                              borderRadius:
-                              BorderRadius.all(Radius.circular(100)),
+                              shape: BoxShape.circle
                             ),
                             child: Center(
                               child: Icon(
